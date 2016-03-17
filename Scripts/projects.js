@@ -19,7 +19,8 @@
 		for(var number = 0; number < paragraphArrayLength; number++){
 		var paragraph = getElementbyid("paragraph" + (number+1) );
 		paragrapgh.innerHTML = paragraphArray[number];
-			
+		
+		console.log(paragraphArray)
 		}
 	 }
 	});
